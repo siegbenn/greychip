@@ -19,7 +19,7 @@
 
 #define BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW               60
 
-#define MONEY_SUPPLY                          			((uint64_t)10000000000000000000)         
+#define MONEY_SUPPLY                          			((uint64_t)1000000000000000000)         
 #define EMISSION_SPEED_FACTOR                           (21)
 
 //TODO Define number of blocks for block size median calculation
@@ -27,11 +27,11 @@
 #define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE       10000 //size of block (bytes) after which reward for block calculated using block size
 #define CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE          600
 //TODO Define number of digits
-#define CRYPTONOTE_DISPLAY_DECIMAL_POINT                11
+#define CRYPTONOTE_DISPLAY_DECIMAL_POINT                10
 //TODO Define number of smallest units in one coin
-#define COIN                                            ((uint64_t)100000000000)
+#define COIN                                            ((uint64_t)10000000000)
 //TODO Define default fee for transactions
-#define DEFAULT_FEE                                     ((uint64_t)100000000)
+#define DEFAULT_FEE                                     ((uint64_t)10000000)
 
 //TODO Define preferred block's target time
 #define DIFFICULTY_TARGET                               60 // seconds
