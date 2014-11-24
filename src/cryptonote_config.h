@@ -87,5 +87,5 @@
 
 #define THREAD_STACK_SIZE                       5 * 1024 * 1024
 
-#define GENESIS_COINBASE_TX_HEX                 ""
+#define GENESIS_COINBASE_TX_HEX                 "016401ff0001bbbad6adf00d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101014675ee822b6592e3387229c1b838c78a3271af59fbf949c7c58acbc09e7d32"
 
